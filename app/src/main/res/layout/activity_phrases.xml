@@ -1,9 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PhrasesActivity">
+    tools:context=".MainActivity">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/tan_background"
+        >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="@color/category_phrases"
+            android:text="Aslam O Alikum!"/>
+
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="@color/category_colors"
+            android:text="App ka kia hall ha?"/>
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="@color/category_family"
+            android:text="I am on the way..."/>
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="@color/category_numbers"
+            android:text="Iam busy now..."/>
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="#996633"
+            android:text="Can I call you later...."/>
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="#6600ff"
+            android:text="Please wait..."/>
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="#ff66ff"
+            android:text="Whats your name?"/>
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="#cc0066"
+            android:text="Come here..."/>
+    </LinearLayout>
+</ScrollView>
