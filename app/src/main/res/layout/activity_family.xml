@@ -1,9 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FamilyActivity">
+    tools:context=".MainActivity">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/tan_background"
+    >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        style="@style/CategoryStyle"
+        android:background="@color/category_phrases"
+        android:text="Dad"/>
+
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:background="@color/category_colors"
+        android:text="Mom"/>
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:background="@color/category_family"
+        android:text="Brother"/>
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:background="@color/category_numbers"
+        android:text="Sister"/>
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:background="#996633"
+        android:text="Son"/>
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:background="#6600ff"
+        android:text="Daughter"/>
+    <TextView
+        style="@style/CategoryStyle"
+        android:background="#ff66ff"
+        android:text="Uncle"/>
+    <TextView
+        style="@style/CategoryStyle"
+        android:background="#cc0066"
+        android:text="Aunty"/>
+</LinearLayout>
+</ScrollView>
